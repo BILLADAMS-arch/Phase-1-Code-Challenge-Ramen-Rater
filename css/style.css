@@ -64,7 +64,7 @@ header {
 
 #ramen-detail h2,
 #ramen-detail p {
-    font-size: 18px;
+    font-size: 15px;
     color: black;
 }
 
@@ -76,17 +76,17 @@ header {
 form {
     display: flex;
     flex-direction: column;
-    width: 350px;
+    width: 300px;
     margin: 20px auto;
     padding: 20px;
     border: 2px solid black;
     border-radius: 10px;
     background: white;
-   
+
 }
 
 form input {
-    margin-bottom: 12px;
+    margin-bottom: 10px;
     padding: 10px;
     border: 1px solid black;
     border-radius: 5px;
@@ -94,15 +94,14 @@ form input {
 }
 
 form button {
-    padding: 12px;
+    padding: 10px;
     background: black;
     color: white;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    font-size: 18px;
+    font-size: 15px;
     font-weight: bold;
-    transition: 0.3s;
 }
 
 form button:hover {
@@ -120,10 +119,10 @@ form button:hover {
     }
 
     #ramen-detail {
-        max-width: 320px;
+        max-width: 300px;
     }
 
     form {
-        width: 280px;
+        width: 250px;
     }
 }
