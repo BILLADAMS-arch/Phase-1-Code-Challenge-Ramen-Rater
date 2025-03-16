@@ -34,7 +34,7 @@ header {
     object-fit: cover;
     border-radius: 10px;
     cursor: pointer;
-    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    transition: 0.3;
     border: 2px solid black;
     background: white;
 }
@@ -42,7 +42,7 @@ header {
 #ramen-menu img:hover {
     transform: scale(1.15);
     border: 2px solid black;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+
 }
 
 #ramen-detail {
@@ -51,7 +51,6 @@ header {
     padding: 20px;
     background: white;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     max-width: 450px;
 }
 
@@ -83,7 +82,7 @@ form {
     border: 2px solid black;
     border-radius: 10px;
     background: white;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+   
 }
 
 form input {
@@ -107,7 +106,7 @@ form button {
 }
 
 form button:hover {
-    background: #333;
+    background: darkgray;
 }
 
 @media (max-width: 600px) {
