@@ -1,0 +1,130 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    text-align: center;
+    background: black;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 15px;
+    margin-bottom: 10px;
+}
+
+#ramen-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding: 15px;
+    background: white;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+#ramen-menu img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    border: 2px solid black;
+    background: white;
+}
+
+#ramen-menu img:hover {
+    transform: scale(1.15);
+    border: 2px solid black;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+#ramen-detail {
+    text-align: center;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    max-width: 450px;
+}
+
+#ramen-detail img {
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+    border-radius: 10px;
+    background: white;
+}
+
+#ramen-detail h2,
+#ramen-detail p {
+    font-size: 18px;
+    color: black;
+}
+
+#new-ramen {
+    text-align: center;
+    margin-top: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form input {
+    margin-bottom: 12px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+form button {
+    padding: 12px;
+    background: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+form button:hover {
+    background: #333;
+}
+
+@media (max-width: 600px) {
+    #ramen-menu {
+        flex-wrap: wrap;
+    }
+
+    #ramen-menu img {
+        width: 90px;
+        height: 90px;
+    }
+
+    #ramen-detail {
+        max-width: 320px;
+    }
+
+    form {
+        width: 280px;
+    }
+}
