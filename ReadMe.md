@@ -6,7 +6,7 @@ Ramen Rater is a simple web application that allows users to view, add, and revi
 ✅ Display a list of ramen dishes with images
 ✅ View details of each ramen (name, restaurant, rating, comment)
 ✅ Add a new ramen with a custom name, image, and review
-✅ Remove a ramen from the list (if deletion functionality is added)
+✅ Remove a ramen from the list
 
  Project Structure
 /ramen-rater
